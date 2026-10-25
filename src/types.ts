@@ -13,6 +13,7 @@ export interface Project {
   url?: string;
   image?: string;
   gallery?: { src: string; altKey: string }[];
+  featured?: boolean;
 }
 
 export interface SkillItem {
